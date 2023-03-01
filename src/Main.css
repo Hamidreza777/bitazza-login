@@ -1,0 +1,234 @@
+#section-main-bitazza{
+    /* background-color: rgb(2, 2, 33); */
+    /* height: 500px; */
+    height: 90%;
+    margin-top: 5%;
+    width: 90%;
+    margin-left: 5%;
+    border-radius: 10px;
+    /* background-color: red; */
+}
+#div-main-btn{
+    background-color:#13132C;
+    display: flex;
+    flex-direction: row-reverse;
+    border-radius: 8px;
+}
+.div-btn{
+    background: #10F48B;
+    height: 32px;
+    width: 54.22222137451172px;
+    border-radius: 0px;
+    border-radius: 3rem;
+    margin-right: 20px;
+/*     display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center; */
+    margin-top: 10px;
+    position: relative;
+}
+#click-btn-toggle{
+    background-color:#FFFFFF;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    border: none;
+    position: absolute;
+    left: 22px;
+    top: 1px;
+}
+#click-btn-toggle1{
+    background-color:#FFFFFF;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    border: none;
+    position: absolute;
+    left: 22px;
+    top: 1px;
+    display: none;
+}
+.p-div-btn{
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: 700;
+    position: absolute;
+    left: 1px;
+    top: -8px;
+}
+.p-div-btn1{
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: 700;
+    position: absolute;
+    left: 32px;
+    top: -8px;
+    display: none;
+}
+.div-main-icon-bitazza{
+    background-color:#13132C;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px 8px 0px 0px;
+}
+.div-main-icon-bitazza>a{
+    text-decoration: none;
+}
+.icon-bitazza1{
+    height: 60px;
+    width: 60px;
+}
+.icon-bitazza2{
+    width: 100px;
+}
+.p-main-email1{
+    color: #10F48B;
+    font-family: DB Airy;
+    font-weight: 700;
+    font-size: 25px;
+    margin-top: 10px;
+}
+.p-main-email1-th{
+    color: #10F48B;
+    font-family: DB Airy;
+    font-weight: 700;
+    font-size: 25px;
+    margin-top: 10px;
+    display: none;
+}
+.p-main-email2{
+    color: #FFFFFF;
+    font-size: 28px;
+    font-weight: 400;
+   /*  background-color: blue; */
+    margin-top: 0px;
+}
+.p-main-email2-th{
+    color: #FFFFFF;
+    font-size: 28px;
+    font-weight: 400;
+   /*  background-color: blue; */
+    margin-top: 0px;
+    display: none;
+}
+.p-main-email3{
+    color: #FFFFFF;
+    font-size: 28px;
+    font-weight: 400;
+    margin-top: -20px;
+}
+.div-photo-bitazza{
+    width: 100%;
+    height: 146.48px;
+    /* background-color: black; */
+    border: none;
+}
+.photo-bitazza{
+    height: 100%;
+    width: 100%;
+}
+.photo-bitazza-th{
+    height: 100%;
+    width: 100%;
+    display: none;
+}
+.div-btn-click-footer{
+    display: flex;
+    flex-direction: row;
+   /*  background-color: red; */
+}
+.btn-dow{
+    width: 50%;
+    height: 39px;
+    background: #10F48B;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 0px 0px 8px;
+    border: none;
+    gap: 10px;
+}
+.btn-dow:hover{
+    cursor: pointer;
+}
+.p-dow{
+    color: #07071A;
+    font-size:15px;
+    font-weight: 700;
+    /* background-color: red; */
+}
+.p-dow-th{
+    color: #07071A;
+    font-size:15px;
+    font-weight: 700;
+    /* background-color: red; */
+    display: none;
+}
+.icon-btn{
+    height: 20px;
+}
+.btn-log{
+    width: 50%;
+    height: 40px;
+    border: none;
+    background-color: #13132C;
+    border-radius: 0 0 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-log:hover{
+    cursor: pointer;
+}
+.btn-log>a{
+    text-decoration: none;
+}
+.p-log{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 23px;
+}
+.p-log-th{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 23px;
+    display: none;
+}
+
+/* #region media */
+  @media (min-width:750px) {
+      #section-main-bitazza{
+        margin-top: 0px;
+          width: 50%;
+          margin-left: 25%;
+      }
+  }
+
+  @media (min-width:1000px) {
+     #section-main-bitazza{
+        width: 549px;
+     }
+     .div-main-icon-bitazza{
+        width: 549px;
+        height: 325px;
+     }
+     .div-photo-bitazza{
+        width: 549px;
+        height: 268.07px;
+     }
+     .btn-dow{
+        width: 274.5px;
+        height: 69px;
+     }
+     .btn-log{
+        width: 274.5px;
+        height: 69px;
+     }
+  }
+/* #endregion */

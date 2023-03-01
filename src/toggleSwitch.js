@@ -1,11 +1,9 @@
-import React, { useState } from 'react';
+/* import React, { useState } from 'react';
 import ReactSwitch from 'react-switch';
 
 function ToggleSwitch() {
   const [checked, setChecked] = useState(true);
   document.querySelector("body").style.background="white";
-
-  /* const name = String = "name is arshiya"; */
 
   const handleChange = val => {
     setChecked(val)
@@ -24,4 +22,4 @@ function ToggleSwitch() {
   );
 }
 
-export default ToggleSwitch;
+export default ToggleSwitch; */
